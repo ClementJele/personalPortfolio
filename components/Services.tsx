@@ -31,12 +31,12 @@ const Services = () => {
                       I am always open to new opportunities. Let us talk.
                     </p>
                     <div className='flex flex-col md:flex-row sm:flex-col gap-4 md:gap-2 sm:gap-4 justify-center items-center'>
-                      <input placeholder='Name' type='text'  className='bg-blue-500 rounded-md h-24 px-2 text-white w-full'/>
-                      <input placeholder='Last Name' className='bg-blue-500 rounded-md h-24 px-2 text-white w-full'/>
+                      <input placeholder='Name' type='text'  className='bg-blue-500 rounded-md h-14 px-2 text-white w-full'/>
+                      <input placeholder='Last Name' className='bg-blue-500 rounded-md h-14 px-2 text-white w-full'/>
                     </div>
 
                     <div className='w-full'>
-                      <input placeholder='Email'  type='email' className='bg-blue-500 rounded-md h-24 w-full px-2 text-white'/>
+                      <input placeholder='Email'  type='email' className='bg-blue-500 rounded-md h-14 w-full px-2 text-white'/>
                     </div>
 
                       <div className='text-[#fafafa] w-full max-w-[500px]'>
