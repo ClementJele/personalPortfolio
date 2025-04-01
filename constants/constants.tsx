@@ -1,3 +1,4 @@
+"use client"
 export const STRINGS = {
     heroSubTitle: "Satisfactory Web Experience With Clement",
     heroTitle: "Delivering Enterprise-Grade Seamless Experiences for Your Ideas",
@@ -26,7 +27,7 @@ export const NavLinks = [
 
     {
         name: "Home",
-        link: "/",
+        link: "/home",
     }, 
             
         
