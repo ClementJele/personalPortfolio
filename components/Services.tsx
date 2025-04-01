@@ -1,6 +1,6 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-nocheck
+
 "use client"
+// @ts-nocheck
 import React from 'react'
 import { STRINGS } from '@/constants/constants'
 // import { TextHoverEffect } from "@/components/ui/text-hover-effect";

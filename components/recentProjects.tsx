@@ -1,3 +1,4 @@
+
 import React from 'react'
 // import { TextGenerateEffect } from './ui/text-generate-effect'
 import { STRINGS } from '@/constants/constants'

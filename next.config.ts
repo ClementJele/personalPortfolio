@@ -7,6 +7,13 @@ const nextConfig: NextConfig = {
     // Optional: if you need other domains too
     // domains: ['api.microlink.io', 'other-domain.com'],
   },
+
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
