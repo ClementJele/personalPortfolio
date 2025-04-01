@@ -137,6 +137,7 @@ export const FloatingNav = ({
           
           {/* Navigation links - centered */}
           <div className="hidden sm:flex items-center justify-center gap-6 flex-grow">
+             {/*eslint-disable-next-line @typescript-eslint/no-explicit-any */}
             {navItems.map((navItem: any, idx: number) => (
               <Link
                 key={`link=${idx}`}
