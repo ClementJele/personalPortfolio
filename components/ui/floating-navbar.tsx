@@ -69,7 +69,7 @@ export const FloatingNav = ({
     }
   });
 
-  const openPopup = () => setIsPopupOpen(true);
+  // const openPopup = () => setIsPopupOpen(true);
   // const closePopup = () => setIsPopupOpen(false);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
@@ -100,7 +100,7 @@ export const FloatingNav = ({
               PIN
             </h1> */}
             <Link
-            href={ "/" }
+            href={ "/#home" }
             
             >
               <Image
@@ -115,7 +115,7 @@ export const FloatingNav = ({
 
           <div className="max-sm:hidden sm:block mr-2">
             <Link
-            href={ "/" }
+            href={ "/#home" }
             
             >
               <Image
@@ -163,7 +163,7 @@ export const FloatingNav = ({
             {/* Contacts Button - visible on larger screens */}
             <button
               className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full hidden sm:block ml-2"
-              onClick={openPopup}
+              // onClick={openPopup}
             >
               <span className="text-gray-200">Contacts</span>
               <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
