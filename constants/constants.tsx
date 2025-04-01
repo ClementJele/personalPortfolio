@@ -26,7 +26,7 @@ export const NavLinks = [
 
     {
         name: "Home",
-        link: "/",
+        link: "/#home",
     }, 
             
         
