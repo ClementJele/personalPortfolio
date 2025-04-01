@@ -1,6 +1,5 @@
 
 "use client"
-// @ts-nocheck
 import React from 'react'
 import { STRINGS } from '@/constants/constants'
 // import { TextHoverEffect } from "@/components/ui/text-hover-effect";
@@ -29,7 +28,7 @@ const Services = () => {
           <div className='flex md:flex-1 justify-center items-center'>
                 <div className='flex flex-col p-3 gap-4'>
                     <p>
-                      I am always open to new opportunities
+                      I am always open to new opportunities. Let us talk.
                     </p>
                     <div className='flex flex-col md:flex-row sm:flex-col gap-4 md:gap-2 sm:gap-4 justify-center items-center'>
                       <input placeholder='Name' type='text'  className='bg-blue-500 rounded-md h-[40] px-2 text-white w-full'/>
