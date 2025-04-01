@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
     // domains: ['api.microlink.io', 'other-domain.com'],
   },
 
+  // output: 'export',
+
   typescript: {
     ignoreBuildErrors: true,
   },

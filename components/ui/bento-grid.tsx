@@ -2,11 +2,11 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./background-gradient-animation";
 import { useState } from "react";
-import animationData from '@/data/confetti.json'
+// import animationData from '@/data/confetti.json'
 import   MagicButton from '../ui/magicButton'
 import { IoCopyOutline } from "react-icons/io5";
 import { STRINGS } from '@/constants/constants'
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 
 
 export const BentoGrid = ({
@@ -131,14 +131,14 @@ const handleCopy = () => {
         {id === 6 && (
           <div className="mt-5 relative">
             <div className={`absolute -bottom-5 right-0 z-100`}>
-              <Lottie options={{
+              {/* <Lottie options={{
                 loop: copied,
                 autoplay: copied,
                 animationData,
                 rendererSettings: {
                   preserveAspectRatio: 'xMidYMid slice'
                 }
-              }}/>
+              }}/> */}
             </div>
 
             <MagicButton 
