@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import Image from "next/image";
+// import Image from "next/image";
 import React, {
   createContext,
   useState,
@@ -11,8 +11,8 @@ import React, {
 } from "react";
 
 const MouseEnterContext = createContext<
-  [boolean, React.Dispatch<React.SetStateAction<boolean>>] | undefined
->(undefined);
+  [boolean, React.Dispatch<React.SetStateAction<boolean>>] | null
+>(null);
 
 export const CardContainer = ({
   children,
@@ -148,7 +148,7 @@ export const CardItem = ({
 // Create a hook to use the context
 export const useMouseEnter = () => {
   const context = useContext(MouseEnterContext);
-  if (context === undefined) {
+  if (context === null) {
     throw new Error("useMouseEnter must be used within a MouseEnterProvider");
   }
   return context;
