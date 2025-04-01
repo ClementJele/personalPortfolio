@@ -46,6 +46,7 @@ export const FloatingNav = ({
     };
 
     window.addEventListener("scroll", handleScroll);
+    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, [navItems]);
 
