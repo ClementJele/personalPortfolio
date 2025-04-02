@@ -5,6 +5,7 @@ import { Spotlight } from './ui/Spotlight'
 import { STRINGS } from '../constants/constants'
 import   MagicButton from './ui/magicButton'
 import { GoArrowUpRight } from "react-icons/go";
+import Link from 'next/link';
 
 
 const Hero = () => {
@@ -40,7 +41,7 @@ const Hero = () => {
                     {STRINGS.heroIntro}
                 </h2>
 
-                <a href="#about">
+                <Link href="#about">
                     <MagicButton 
                     
                     title={STRINGS.magicButtonText}
@@ -48,7 +49,7 @@ const Hero = () => {
                     position='right'
                     />
                  
-                </a>
+                </Link>
                 
             </div>
         </div>

@@ -76,7 +76,7 @@ export const navItems = [
       des: "SummaMind saves you hours back into your day by going through your document and summarising it for you with the power of AI.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/ClementJele/AI_Saas",
+      link: "https://mindease-ai.vercel.app",
     },
     {
       id: 2,
@@ -84,7 +84,7 @@ export const navItems = [
       des: "This is a project for a client who requested a single page web outlining their work, still underway",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/ClementJele/clientGrupoPin",
+      link: "https://pinltd.vercel.app",
     },
     {
       id: 3,
@@ -92,16 +92,16 @@ export const navItems = [
       des: "Preparing for upcoming interviews made easy with the power of AI, prepare for interviews talking to an AI interview coach.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/ClementJele/AI_InterviewCoach",
+      link: "Exists on github, a private repo.",
     },
-    // {
-    //   id: 4,
-    //   title: "Animated Apple Iphone 3D Website",
-    //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    //   img: "/p4.svg",
-    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    //   link: "https://github.com/adrianhajdin/iphone",
-    // },
+    {
+      id: 4,
+      title: "A Fitclub membership website",
+      des: "fit your needs As fit as you can. We understand diverity, that's why",
+      img: "/p4.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/ClementJele/FitClub",
+    },
   ];
 
   export const techStackPreview = [
