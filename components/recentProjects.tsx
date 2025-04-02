@@ -11,7 +11,7 @@ const RecentProjects = () => {
           {STRINGS.projectsTitle}
         </div>
 
-      <div className='grid md:grid-cols-3 sm:grid-col-1 !gap-2'>
+      <div className='grid md:grid-cols-3 sm:grid-col-1 gap-2 '>
         {projects.map((project) => (
           <div className="h-[40rem] w-full flex items-center justify-center" key={project.id}>
             <PinContainer
