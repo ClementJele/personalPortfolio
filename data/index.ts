@@ -94,14 +94,14 @@ export const navItems = [
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "Exists on github, a private repo.",
     },
-    {
-      id: 4,
-      title: "A Fitclub membership website",
-      des: "fit your needs As fit as you can. We understand diverity, that's why",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/ClementJele/FitClub",
-    },
+    // {
+    //   id: 4,
+    //   title: "A Fitclub membership website",
+    //   des: "fit your needs As fit as you can. We understand diverity, that's why",
+    //   img: "/p4.svg",
+    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    //   link: "https://github.com/ClementJele/FitClub",
+    // },
   ];
 
   export const techStackPreview = [
