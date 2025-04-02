@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Communication With Clients is a priority, we build open communication throughout the entire project",
+      title: "Communication With Clients is a priority, I build open communication throughout the entire project",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Team Player And Delivery Guaranteed. Excellent Execution",
+      title: "Collaborative professional committed to delivering exceptional results with consistent execution excellence.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
