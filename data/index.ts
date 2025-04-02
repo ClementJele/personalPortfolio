@@ -88,20 +88,20 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI Interview Coach",
+      title: "AI Interview Coach(underway)",
       des: "Preparing for upcoming interviews made easy with the power of AI, prepare for interviews talking to an AI interview coach.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "Exists on github, a private repo.",
     },
-    // {
-    //   id: 4,
-    //   title: "A Fitclub membership website",
-    //   des: "fit your needs As fit as you can. We understand diverity, that's why",
-    //   img: "/p4.svg",
-    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    //   link: "https://github.com/ClementJele/FitClub",
-    // },
+    {
+      id: 4,
+      title: "A Fitclub membership website",
+      des: "fit your needs As fit as you can. We understand diverity, that's why",
+      img: "/p4.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/ClementJele/FitClub",
+    },
   ];
 
   export const techStackPreview = [
