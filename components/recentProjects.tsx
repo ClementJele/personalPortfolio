@@ -6,20 +6,19 @@ import { PinContainer } from './ui/3d-pin';
 
 const RecentProjects = () => {
   return (
-    <div className='flex flex-col my-7' id='projects'>
-        <div className='text-center text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#5a7ef3] to-[#3716f2] bg-clip-text text-transparent'>
+    <div className='flex flex-col my-7 w-full' id='projects'>
+        <div className='text-center text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#5a7ef3] to-[#3716f2] bg-clip-text text-transparent mb-8'>
           {STRINGS.projectsTitle}
         </div>
 
-      <div className='grid md:grid-cols-3 sm:grid-col-1 !gap-2'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-6 w-full px-4'>
         {projects.map((project) => (
-          <div className="min-h-[40rem] w-full flex items-center justify-center" key={project.id}>
+          <div className="flex items-center justify-center" key={project.id}>
             <PinContainer
               title={project.link}
               href={project.link}
-              className='!mt-2'
             >
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 w-full h-[20rem]">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100">
                   {project.title}
                 </h3>
