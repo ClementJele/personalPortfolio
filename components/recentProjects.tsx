@@ -7,11 +7,11 @@ import { PinContainer } from './ui/3d-pin';
 const RecentProjects = () => {
   return (
     <div className='flex flex-col my-7' id='projects'>
-        <div className='text-center text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#5a7ef3] to-[#3716f2] bg-clip-text text-transparent'>
-          {STRINGS.projectsTitle}
-        </div>
+      <div className='text-center text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#5a7ef3] to-[#3716f2] bg-clip-text text-transparent'>
+        {STRINGS.projectsTitle}
+      </div>
 
-      <div className='grid md:grid-cols-3 sm:grid-col-1 gap-2 '>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-4'>
         {projects.map((project) => (
           <div className="h-[40rem] w-full flex items-center justify-center" key={project.id}>
             <PinContainer
