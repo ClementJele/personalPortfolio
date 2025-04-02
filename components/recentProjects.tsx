@@ -13,7 +13,7 @@ const RecentProjects = () => {
 
       <div className='grid md:grid-cols-3 sm:grid-col-1 !gap-2'>
         {projects.map((project) => (
-          <div className="h-[40rem] w-full flex items-center justify-center" key={project.id}>
+          <div className="min-h-[40rem] w-full flex items-center justify-center" key={project.id}>
             <PinContainer
               title={project.link}
               href={project.link}
