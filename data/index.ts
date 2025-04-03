@@ -102,6 +102,16 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/ClementJele/FitClub",
     },
+    
+
+    {
+      id: 4,
+      title: "Restaurant AI Agent",
+      des: "Gather information about your restaurant of choice by analysing all reviews before heading to it.",
+      img: "/p4.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/ClementJele/ReviewsLocal_AI_Agent",
+    },
   ];
 
   export const techStackPreview = [
