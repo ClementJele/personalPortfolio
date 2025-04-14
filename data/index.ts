@@ -92,7 +92,7 @@ export const navItems = [
       des: "Preparing for upcoming interviews made easy with the power of AI, prepare for interviews talking to an AI interview coach.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "Exists on github, a private repo.",
+      link: "https://coach-ai-int.vercel.app",
     },
     {
       id: 4,
@@ -105,13 +105,13 @@ export const navItems = [
     
 
     {
-      id: 4,
+      id: 5,
       title: "Restaurant AI Agent",
       des: "Gather information about your restaurant of choice by analysing all reviews before heading to it.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/ClementJele/ReviewsLocal_AI_Agent",
-    },
+    }
   ];
 
   export const techStackPreview = [
