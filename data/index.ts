@@ -88,7 +88,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI Interview Coach(underway)",
+      title: "AI Interview Coach",
       des: "Preparing for upcoming interviews made easy with the power of AI, prepare for interviews talking to an AI interview coach.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],

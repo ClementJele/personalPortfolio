@@ -91,7 +91,7 @@ export const FloatingNav = ({
             duration: 0.2,
           }}
           className={cn(
-            "flex fixed top-1 md:top-1 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] dark:bg-[#080a23] bg-gray-700 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[7000] px-8 py-2 items-center justify-between gap-1 rounded-md",
+            "flex fixed top-1 md:top-2 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] dark:bg-[#080a23] bg-gray-700 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[7000] px-8 py-2 items-center justify-between gap-1 rounded-md",
             className
           )}
         >
@@ -163,13 +163,18 @@ export const FloatingNav = ({
           {/* Right side content - Contact button or hamburger */}
           <div className="flex-none flex items-center">
             {/* Contacts Button - visible on larger screens */}
-            <button
-              className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full hidden sm:block ml-2"
-              // onClick={openPopup}
-            >
-              <span className="text-gray-200">Contacts</span>
-              <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
-            </button>
+            <Link href="#services">
+              <button
+                className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full hidden sm:block ml-2"
+                // onClick={openPopup}
+                
+                
+              >
+                <span className="text-gray-200">Contacts</span>
+                <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
+              </button>
+            </Link>
+           
             
             {/* Hamburger Menu - visible on small screens */}
             <button

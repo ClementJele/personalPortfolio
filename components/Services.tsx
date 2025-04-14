@@ -10,7 +10,7 @@ import { Button } from './ui/button';
 
 const Services = () => {
   return (
-    <div id='#services' className='flex flex-col gap-2 items-center justify-center'>
+    <div id='services' className='flex flex-col gap-2 items-center justify-center'>
         <div className="text-4xl md:text-7xl font-bold relative z-20 bg-gradient-to-r from-[#5a7ef3] to-[#3716f2] bg-clip-text text-transparent mb-6">
           {STRINGS.servicesTitle}
         </div>
