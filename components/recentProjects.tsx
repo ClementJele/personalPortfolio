@@ -11,9 +11,9 @@ const RecentProjects = () => {
           {STRINGS.projectsTitle}
         </div>
 
-      <div className='grid md:grid-cols-3 sm:grid-col-1 sm:mx-0 sm:items-center'>
+      <div className='grid md:grid-cols-3 grid-cols-1 mx-auto sm:items-center'>
         {projects.map((project) => (
-          <div className="min-h-[25rem] flex  justify-center " key={project.id}>
+          <div className="min-h-[25rem] flex  items-center justify-center " key={project.id}>
             <PinContainer
               title={project.link}
               href={project.link}
