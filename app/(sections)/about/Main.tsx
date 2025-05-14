@@ -142,7 +142,7 @@ const AboutPage = () => {
               </h2>
               <div className="space-y-4 text-gray-700 dark:text-gray-300">
                 <p>
-                  With over 5 years in the tech industry, I&apos;ve evolved from
+                  With over 2 years in the tech industry, I&apos;ve evolved from
                   a curious computer science student to a seasoned full-stack
                   developer specializing in modern web technologies.
                 </p>
@@ -153,9 +153,8 @@ const AboutPage = () => {
                   experience.
                 </p>
                 <p>
-                  When I&apos;m not coding, you&apos;ll find me contributing to
-                  open-source projects, mentoring junior developers, or
-                  exploring the latest advancements in AI and web development.
+                  When I&apos;m not coding, you&apos;ll find me exploring the
+                  latest advancements in AI and web development.
                 </p>
               </div>
             </motion.div>
