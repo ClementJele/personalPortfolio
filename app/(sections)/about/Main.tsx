@@ -9,8 +9,8 @@ import Portfolio from "@/app/Images/Portfolio.png";
 const AboutPage = () => {
   // Stats data
   const stats = [
-    { value: "5+", label: "Years Experience" },
-    { value: "50+", label: "Projects Completed" },
+    { value: "2+", label: "Years Experience" },
+    { value: "10+", label: "Projects Completed" },
     { value: "100%", label: "Client Satisfaction" },
     { value: "∞", label: "Cups of Coffee" },
   ];
@@ -18,23 +18,23 @@ const AboutPage = () => {
   // Timeline data
   const timeline = [
     {
-      year: "2023 - Present",
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovators Inc.",
+      year: "2024 - Present",
+      title: "Started A Software Development Company",
+      company: "OpenINFINITY",
       description:
-        "Leading cross-functional teams in building scalable SaaS platforms with React, Node.js, and cloud architectures.",
+        "Began putting all skills to use with real clients to drive real results.",
     },
     {
-      year: "2020 - 2023",
-      title: "Frontend Engineer",
-      company: "Digital Solutions Ltd.",
+      year: "2023 - 2024",
+      title: "Built Projects Deployable and considered SaaS",
+      company: "Self Learning",
       description:
-        "Developed award-winning web applications and design systems used by Fortune 500 companies.",
+        "Developed web applications and design systems that follow modern standards.",
     },
     {
-      year: "2018 - 2020",
-      title: "Junior Developer",
-      company: "StartUp Ventures",
+      year: "2022 - 2023",
+      title: "Built Personal Learning Projects",
+      company: "Self Learning",
       description:
         "Built MVP products and contributed to all stages of development lifecycle.",
     },

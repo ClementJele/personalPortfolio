@@ -107,7 +107,6 @@ const RecentProjects = () => {
     </span>
   );
 
-  // Only render heavy content when in viewport
   const renderProjects = isInView || isClient;
 
   return (
@@ -141,8 +140,8 @@ const RecentProjects = () => {
             <Tilt
               key={project.id}
               options={{
-                max: 10, // Reduced from 15 for better performance
-                scale: 1.03, // Reduced from 1.05 for better performance
+                max: 10,
+                scale: 1.03,
                 glare: false, // Removed glare effect for better performance
               }}
               className="tilt-element"
@@ -157,8 +156,8 @@ const RecentProjects = () => {
                 {/* Project image with lazy loading */}
                 <div className="h-48 overflow-hidden relative">
                   <Image
-                    loading="lazy" // Use lazy loading instead of priority
-                    src={project.image || "/images/placeholder-project.jpg"} // Use project image or fallback
+                    loading="lazy"
+                    src={project.image || "/images/placeholder-project.jpg"}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     width={500}
@@ -184,7 +183,6 @@ const RecentProjects = () => {
                     {project.des}
                   </p>
 
-                  {/* Tech stack icons with lazy loading */}
                   {project.iconLists && (
                     <div className="mt-4 flex flex-wrap gap-2">
                       {project.iconLists.slice(0, 5).map((icon, i) => (
@@ -258,7 +256,7 @@ const RecentProjects = () => {
           Like what you see? Let&apos;s build something amazing together.
         </p>
         <a
-          href="#contact"
+          href="/contact"
           className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#5a7ef3] to-[#3716f2] text-white rounded-full font-medium hover:shadow-lg transition-all hover:scale-105"
         >
           Start a Project

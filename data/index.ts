@@ -1,3 +1,4 @@
+import AI_LMS from "@/app/Images/AI_LMS.png";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -86,7 +87,7 @@ export const projects = [
     des: "This is a project for a client who requested a single page web outlining their work, still underway",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://pinltd.vercel.app",
+    link: "https://pin-ltd.com",
   },
   {
     id: 3,
@@ -112,6 +113,22 @@ export const projects = [
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/ClementJele/ReviewsLocal_AI_Agent",
+  },
+  {
+    id: 6,
+    title: "AI Learning Management System",
+    des: "Do you sometimes struggle with organising the information you learn? This AI LMS will help you with that. From Idea validation to Interview preparation",
+    img: { AI_LMS },
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://chapter-mind.vercel.app",
+  },
+  {
+    id: 7,
+    title: "GuideAI",
+    des: "An AI Agent with the ability to use tools to fulfill tasks.",
+    img: { AI_LMS },
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://tool-ai-agent.vercel.app/",
   },
 ];
 
