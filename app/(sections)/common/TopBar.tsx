@@ -21,7 +21,7 @@ export function TopBar() {
     { name: "Projects", path: "/projects" },
     { name: "About", path: "/about" },
     { name: "Services", path: "/services" },
-    { name: "Blog", path: "/blog" },
+    // { name: "Blog", path: "/blog" },
     // { name: "Testimonials", path: "/testimonials" },
     { name: "Contact", path: "/contact" },
   ];
