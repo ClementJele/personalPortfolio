@@ -14,33 +14,33 @@ const TestimonialsPage = () => {
     {
       id: 1,
       name: "Sarah Johnson",
-      role: "CTO at TechInnovate",
+      role: "PARTNER",
       content:
         "Clement delivered our SaaS platform 3 weeks ahead of schedule while implementing performance optimizations that reduced our AWS costs by 40%. His architectural decisions continue to pay dividends as we scale.",
       image: "/client1.jpg",
       logo: "/techinnovate-logo.svg",
       rating: 5,
     },
-    {
-      id: 2,
-      name: "Michael Chen",
-      role: "Lead Product Manager at Finova",
-      content:
-        "Working with Clement was a masterclass in modern web development. He transformed our legacy React codebase into a TypeScript-powered Next.js application with 98% Lighthouse scores across all pages.",
-      image: "/client2.jpg",
-      logo: "/finova-logo.svg",
-      rating: 5,
-    },
-    {
-      id: 3,
-      name: "David Okafor",
-      role: "Founder at StartupX",
-      content:
-        "As a non-technical founder, I needed someone who could own the entire stack. Clement built our MVP in record time while documenting every decision - making it easy for our team to take over later.",
-      image: "/client3.jpg",
-      logo: "/startupx-logo.svg",
-      rating: 5,
-    },
+    // {
+    //   id: 2,
+    //   name: "Michael Chen",
+    //   role: "Lead Product Manager at Finova",
+    //   content:
+    //     "Working with Clement was a masterclass in modern web development. He transformed our legacy React codebase into a TypeScript-powered Next.js application with 98% Lighthouse scores across all pages.",
+    //   image: "/client2.jpg",
+    //   logo: "/finova-logo.svg",
+    //   rating: 5,
+    // },
+    // {
+    //   id: 3,
+    //   name: "David Okafor",
+    //   role: "Founder at StartupX",
+    //   content:
+    //     "As a non-technical founder, I needed someone who could own the entire stack. Clement built our MVP in record time while documenting every decision - making it easy for our team to take over later.",
+    //   image: "/client3.jpg",
+    //   logo: "/startupx-logo.svg",
+    //   rating: 5,
+    // },
   ];
 
   const nextTestimonial = () => {

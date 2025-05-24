@@ -1,4 +1,5 @@
 import AI_LMS from "@/app/Images/AI_LMS.png";
+import MindEase from "@/app/Images/mindease.png";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -72,20 +73,42 @@ export const gridItems = [
   },
 ];
 
+export const techStackPreview = [
+  {
+    NextJS: "https://nextjs.org",
+    TypeScript: "https://www.typescriptlang.org",
+    TailwindCSS: "https://tailwindcss.com",
+    shadcnUI: "https://ui.shadcn.com",
+    FramerMotion: "https://www.framer.com/motion",
+    Zod: "https://zod.dev",
+    NeonDB: "https://neon.tech",
+    LangChain: "https://js.langchain.com",
+    UploadThing: "https://uploadthing.com",
+    React: "https://react.dev",
+    micolink: "https://api.microlink.io/?",
+  },
+];
+
 export const projects = [
   {
     id: 1,
     title: "Built a full stack AI Saas PDF Summarizer.",
     des: "SummaMind saves you hours back into your day by going through your document and summarising it for you with the power of AI.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/mindease.png",
+    iconLists: [
+      "/next.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/fm.svg",
+      techStackPreview[0].NextJS,
+    ],
     link: "https://mindease-ai.vercel.app",
   },
   {
     id: 2,
     title: "Client Project",
     des: "This is a project for a client who requested a single page web outlining their work, still underway",
-    img: "/p2.svg",
+    img: MindEase,
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://pin-ltd.com",
   },
@@ -93,15 +116,15 @@ export const projects = [
     id: 3,
     title: "AI Interview Coach",
     des: "Preparing for upcoming interviews made easy with the power of AI, prepare for interviews talking to an AI interview coach.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    img: MindEase,
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://coach-ai-int.vercel.app",
   },
   {
     id: 4,
     title: "A Fitclub membership website",
     des: "fit your needs As fit as you can. We understand diverity, that's why",
-    img: "/p4.svg",
+    img: MindEase,
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/ClementJele/FitClub",
   },
@@ -110,7 +133,7 @@ export const projects = [
     id: 5,
     title: "Restaurant AI Agent",
     des: "Gather information about your restaurant of choice by analysing all reviews before heading to it.",
-    img: "/p4.svg",
+    img: MindEase,
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/ClementJele/ReviewsLocal_AI_Agent",
   },
@@ -129,22 +152,6 @@ export const projects = [
     img: { AI_LMS },
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://tool-ai-agent.vercel.app/",
-  },
-];
-
-export const techStackPreview = [
-  {
-    NextJS: "https://nextjs.org",
-    TypeScript: "https://www.typescriptlang.org",
-    TailwindCSS: "https://tailwindcss.com",
-    shadcnUI: "https://ui.shadcn.com",
-    FramerMotion: "https://www.framer.com/motion",
-    Zod: "https://zod.dev",
-    NeonDB: "https://neon.tech",
-    LangChain: "https://js.langchain.com",
-    UploadThing: "https://uploadthing.com",
-    React: "https://react.dev",
-    micolink: "https://api.microlink.io/?",
   },
 ];
 

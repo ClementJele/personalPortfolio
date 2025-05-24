@@ -34,7 +34,7 @@ const ServicesPage = () => {
         <SiNextdotjs key="next" />,
         <SiTypescript key="ts" />,
       ],
-      price: "From $5,000",
+      price: "From R10,000",
     },
     {
       icon: <FiLayers className="w-6 h-6" />,
@@ -48,7 +48,7 @@ const ServicesPage = () => {
         "Interactive prototyping",
       ],
       technologies: [<SiFigma key="figma" />, <SiTailwindcss key="tailwind" />],
-      price: "From $3,500",
+      price: "From R7,500",
     },
     {
       icon: <FiServer className="w-6 h-6" />,
@@ -62,7 +62,7 @@ const ServicesPage = () => {
         "Cloud deployment",
       ],
       technologies: [<FaNodeJs key="node" />, <FiDatabase key="db" />],
-      price: "From $4,500",
+      price: "From R8,500",
     },
     {
       icon: <FiSmartphone className="w-6 h-6" />,
@@ -76,7 +76,7 @@ const ServicesPage = () => {
         "Performance optimization",
       ],
       technologies: [<FaReact key="react" />, <SiNextdotjs key="next" />],
-      price: "From $6,000",
+      price: "From R15,000",
     },
     {
       icon: <FiBarChart2 className="w-6 h-6" />,
@@ -90,7 +90,7 @@ const ServicesPage = () => {
         "CDN configuration",
       ],
       technologies: [<FaReact key="react" />, <SiNextdotjs key="next" />],
-      price: "From $2,500",
+      price: "From R6,500",
     },
   ];
 
