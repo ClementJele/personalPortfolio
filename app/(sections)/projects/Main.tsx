@@ -14,6 +14,7 @@ import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
+import Placeholder from "@/public/placeholder.png";
 
 import { useState, useEffect } from "react";
 
@@ -101,11 +102,11 @@ const RecentProjects = () => {
   };
 
   // Tech stack pill component
-  const TechPill = ({ tech }) => (
-    <span className="px-3 py-1 text-xs font-medium rounded-full bg-gray-800 text-blue-300">
-      {tech}
-    </span>
-  );
+  // const TechPill = ({ tech }) => (
+  //   <span className="px-3 py-1 text-xs font-medium rounded-full bg-gray-800 text-blue-300">
+  //     {tech}
+  //   </span>
+  // );
 
   const renderProjects = isInView || isClient;
 
@@ -157,7 +158,7 @@ const RecentProjects = () => {
                 <div className="h-48 overflow-hidden relative">
                   <Image
                     loading="lazy"
-                    src={project.image || "/images/placeholder-project.jpg"}
+                    src={Placeholder}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     width={500}
@@ -183,7 +184,7 @@ const RecentProjects = () => {
                     {project.des}
                   </p>
 
-                  {project.iconLists && (
+                  {/* {project.iconLists && (
                     <div className="mt-4 flex flex-wrap gap-2">
                       {project.iconLists.slice(0, 5).map((icon, i) => (
                         <div
@@ -208,7 +209,7 @@ const RecentProjects = () => {
                         </div>
                       )}
                     </div>
-                  )}
+                  )} */}
 
                   {/* Project links with simplified animations */}
                   <div className="mt-6 flex gap-4">

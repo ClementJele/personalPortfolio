@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div
       ref={ref}
-      className="relative min-h-screen overflow-hidden p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-gray-100"
+      className="relative min-h-screen overflow-hidden p-8 pb-20  gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-gray-100"
     >
       {/* Animated background elements */}
       <motion.div
@@ -50,14 +50,14 @@ export default function Home() {
 
       {/* Hero Section */}
       <motion.main
-        className="relative z-10 max-w-6xl mx-auto grid gap-12 text-center items-center justify-items-center"
+        className="relative z-10 max-w-6xl mx-auto grid gap-12 text-center items-center justify-items-center "
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <div className="grid gap-8">
+        <div className="grid gap-8 ">
           <motion.p
-            className="text-lg text-blue-600 dark:text-blue-400 font-medium"
+            className="text-lg text-blue-600 dark:text-blue-400 font-medium pt-10"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}

@@ -153,6 +153,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://tool-ai-agent.vercel.app/",
   },
+  {
+    id: 8,
+    title: "GitPriv",
+    des: "Make your private repositories public with ease, no more hassle of going through each repository and making it public.",
+    img: { AI_LMS },
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://tool-ai-agent.vercel.app/",
+  },
 ];
 
 export const testimonials = [
