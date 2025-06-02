@@ -117,8 +117,8 @@ const AboutPage = () => {
               viewport={{ once: true }}
             >
               <a
-                href="/ClementJele.pdf"
-                download="ClementJele.pdf"
+                href="/Clement_Jele_CV.pdf"
+                download="Clement_Jele_CV.pdf"
                 className="flex items-center justify-center gap-2 px-6 py-3 bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
               >
                 <FiDownload />
