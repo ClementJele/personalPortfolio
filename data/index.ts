@@ -143,7 +143,7 @@ export const projects = [
     des: "Do you sometimes struggle with organising the information you learn? This AI LMS will help you with that. From Idea validation to Interview preparation",
     img: { AI_LMS },
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://chapter-mind.vercel.app",
+    link: "https://chapter-mind-six.vercel.app",
   },
   {
     id: 7,
