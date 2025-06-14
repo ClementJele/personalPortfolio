@@ -14,6 +14,8 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+
+  //kanjalo
   images: {
     domains: ["nextjs.org"],
   },

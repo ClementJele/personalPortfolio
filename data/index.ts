@@ -161,6 +161,15 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://git-priv.vercel.app/",
   },
+  ,
+  {
+    id: 9,
+    title: "Salon Demo",
+    des: "Everyone deserves to have their work seen and appreciated",
+    img: { AI_LMS },
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://salon-clement.vercel.app/",
+  },
 ];
 
 export const testimonials = [
